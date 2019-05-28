@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.aside`
-  height: 100%;
-  width: 200px;
   background: #121212;
   color: #b3b3b3;
   display: flex;
   flex-direction: column;
+  height: 100%;
   justify-content: space-between;
+  width: 200px;
 
   > div {
     padding: 25px;
@@ -29,14 +29,14 @@ export const Menu = styled.div`
     margin-bottom: 10px;
 
     a {
+      align-items: center;
       color: inherit;
-      text-decoration: none;
+      display: flex;
       font-size: 13px;
       font-weight: bold;
       line-height: 32px;
-      display: flex;
-      align-items: center;
       position: relative;
+      text-decoration: none;
 
       &:hover {
         color: #ffffff;
@@ -46,14 +46,14 @@ export const Menu = styled.div`
         color: #ffffff;
 
         &:before {
+          background: #1fd863;
           content: '';
           display: block;
-          width: 4px;
           height: 26px;
-          background: #1fd863;
+          left: -25px;
           position: absolute;
           top: 3px;
-          left: -25px;
+          width: 4px;
         }
       }
 
@@ -66,23 +66,26 @@ export const Menu = styled.div`
 
 export const Nav = styled.ul`
   list-style: none;
-  margin-bottom: 25px;
+
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
 
   span {
-    text-transform: uppercase;
     font-size: 11px;
     letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   li {
     a {
+      align-items: center;
       color: inherit;
-      text-decoration: none;
+      display: flex;
       font-size: 13px;
       font-weight: bold;
       line-height: 32px;
-      display: flex;
-      align-items: center;
+      text-decoration: none;
 
       &:hover {
         color: #ffffff;
@@ -96,13 +99,13 @@ export const Nav = styled.ul`
 `
 
 export const NewPlaylist = styled.button`
+  align-items: center;
   background: transparent;
-  border: 0;
   border-top: 1px solid #282828;
-  font-size: 13px;
+  border: 0;
   color: #b3b3b3;
   display: flex;
-  align-items: center;
+  font-size: 13px;
   padding: 15px 25px;
 
   &:hover {

@@ -18,19 +18,19 @@ function Sidebar() {
           <img src={MenuIcon} alt="Adicionar playlist" />
           <ul>
             <li>
-              <a href="" className="active">
+              <a href="foo" className="active">
                 <img src={HomeIcon} alt="Adicionar playlist" />
                 Home
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="foo">
                 <img src={BrowseIcon} alt="Adicionar playlist" />
                 Browse
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="foo">
                 <img src={RadioIcon} alt="Adicionar playlist" />
                 Radio
               </a>
@@ -44,28 +44,28 @@ function Sidebar() {
           </li>
 
           <li>
-            <a href="#">Made For You</a>
+            <a href="foo">Made For You</a>
           </li>
           <li>
-            <a href="#">Recently Played</a>
+            <a href="foo">Recently Played</a>
           </li>
           <li>
-            <a href="#">Songs</a>
+            <a href="foo">Songs</a>
           </li>
           <li>
-            <a href="#">Albums</a>
+            <a href="foo">Albums</a>
           </li>
           <li>
-            <a href="#">Artits</a>
+            <a href="foo">Artists</a>
           </li>
           <li>
-            <a href="#">Stations</a>
+            <a href="foo">Stations</a>
           </li>
           <li>
-            <a href="#">Videos</a>
+            <a href="foo">Videos</a>
           </li>
           <li>
-            <a href="#">Podcasts</a>
+            <a href="foo">Podcasts</a>
           </li>
         </Nav>
 
@@ -75,19 +75,19 @@ function Sidebar() {
           </li>
 
           <li>
-            <a href="#">Rock</a>
+            <a href="foo">Rock</a>
           </li>
           <li>
-            <a href="#">Soft Rock</a>
+            <a href="foo">Soft Rock</a>
           </li>
           <li>
-            <a href="#">Solitary Ride</a>
+            <a href="foo">Solitary Ride</a>
           </li>
         </Nav>
       </div>
       <NewPlaylist>
         <img src={AddPlaylistIcon} alt="Adicionar playlist" />
-        Nova playlist
+        New Playlist
       </NewPlaylist>
     </Container>
   )
