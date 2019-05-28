@@ -1,7 +1,15 @@
 import React from 'react'
 
+import GlobalStyled from './styles/global'
+import Sidebar from './components/Sidebar'
+
 function App() {
-  return <h1>Hello world!</h1>
+  return (
+    <>
+      <GlobalStyled />
+      <Sidebar />
+    </>
+  )
 }
 
 export default App
