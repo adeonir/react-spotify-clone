@@ -1,10 +1,8 @@
-<svg width="23" height="23" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <path d="M18 11.5H5" id="a"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <path d="M11.5 0C5.149 0 0 5.148 0 11.5 0 17.851 5.149 23 11.5 23S23 17.851 23 11.5C23 5.148 17.851 0 11.5 0m0 1C17.29 1 22 5.71 22 11.5S17.29 22 11.5 22 1 17.29 1 11.5 5.71 1 11.5 1" fill="#AAA"/>
-    <path d="M11.5 5v13" stroke="#B3B3B3"/>
-    <use stroke="#B3B3B3" xlink:href="#a"/>
-  </g>
+<svg width="23" height="23" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 0C5.149 0 0 5.148 0 11.5 0 17.851 5.149 23 11.5 23S23 17.851 23 11.5C23 5.148 17.851 0 11.5 0zm0 1C17.29 1 22 5.71 22 11.5S17.29 22 11.5 22 1 17.29 1 11.5 5.71 1 11.5 1z" fill="#AAA"/>
+  <path d="M11.5 5v13M18 11.5H5" stroke="#B3B3B3"/>
+  <mask id="a" maskUnits="userSpaceOnUse" x="5" y="11" width="13" height="2">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M18 11.5H5h13z" fill="#fff"/>
+    <path d="M18 11.5H5" stroke="#fff"/>
+  </mask>
 </svg>
