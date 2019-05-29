@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import GlobalStyled from './styles/global'
 
@@ -8,9 +9,11 @@ import Player from './components/Player'
 
 import { Wrapper, Container, Content } from './styles/components'
 
+import Routes from './routes'
+
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <GlobalStyled />
 
       <Wrapper>
@@ -18,12 +21,13 @@ function App() {
           <Sidebar />
           <Content>
             <Header />
+            <Routes />
           </Content>
         </Container>
 
         <Player />
       </Wrapper>
-    </>
+    </BrowserRouter>
   )
 }
 
