@@ -14,10 +14,10 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
+  background: linear-gradient(to bottom, #414141 0%, #181818 100%), transparent;
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 250px, 100%;
-  background: linear-gradient(to bottom, #414141 0%, #181818 100%), transparent;
   display: flex;
   flex-direction: column;
   flex: 1;

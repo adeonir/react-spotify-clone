@@ -21,7 +21,6 @@ export const Search = styled.div`
   input {
     border: 0;
     color: #121212;
-    flex: 1;
     font-size: 13px;
     width: 100%;
   }
