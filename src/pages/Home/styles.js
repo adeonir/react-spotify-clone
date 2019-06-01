@@ -1,10 +1,11 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-top: 110px;
+  margin-top: 100px;
 `
 
 export const Title = styled.h1`
@@ -16,31 +17,37 @@ export const List = styled.div`
   display: flex;
 `
 
-export const Playlist = styled.a`
+export const Playlist = styled(Link)`
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
   text-decoration: none;
-  width: 250px;
-  color: #ffffff;
+  width: calc(25% - 20px);
 
   img {
-    height: 250px;
+    width: 100%;
+    height: auto;
   }
 
   strong {
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 14px;
     margin-top: 10px;
   }
 
   p {
-    line-height: 22px;
-    font-size: 13px;
-    margin-top: 5px;
     color: #b3b3b3;
+    line-height: 1.8;
+    font-size: 12px;
+    margin-top: 10px;
   }
 
   &:first-child {
     margin-left: 0;
+  }
+
+  &:hover img {
+    opacity: 0.5;
   }
 `
