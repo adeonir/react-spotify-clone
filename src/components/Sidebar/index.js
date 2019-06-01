@@ -18,19 +18,19 @@ function Sidebar() {
           <img src={MenuIcon} alt="Adicionar playlist" />
           <ul>
             <li>
-              <a href="foo" className="active">
+              <a href="/" className="active">
                 <img src={HomeIcon} alt="Adicionar playlist" />
                 Home
               </a>
             </li>
             <li>
-              <a href="foo">
+              <a href="/#">
                 <img src={BrowseIcon} alt="Adicionar playlist" />
                 Browse
               </a>
             </li>
             <li>
-              <a href="foo">
+              <a href="/#">
                 <img src={RadioIcon} alt="Adicionar playlist" />
                 Radio
               </a>
@@ -44,28 +44,28 @@ function Sidebar() {
           </li>
 
           <li>
-            <a href="foo">Made For You</a>
+            <a href="/#">Made For You</a>
           </li>
           <li>
-            <a href="foo">Recently Played</a>
+            <a href="/#">Recently Played</a>
           </li>
           <li>
-            <a href="foo">Songs</a>
+            <a href="/#">Songs</a>
           </li>
           <li>
-            <a href="foo">Albums</a>
+            <a href="/#">Albums</a>
           </li>
           <li>
-            <a href="foo">Artists</a>
+            <a href="/#">Artists</a>
           </li>
           <li>
-            <a href="foo">Stations</a>
+            <a href="/#">Stations</a>
           </li>
           <li>
-            <a href="foo">Videos</a>
+            <a href="/#">Videos</a>
           </li>
           <li>
-            <a href="foo">Podcasts</a>
+            <a href="/#">Podcasts</a>
           </li>
         </Nav>
 
@@ -75,13 +75,13 @@ function Sidebar() {
           </li>
 
           <li>
-            <a href="foo">Rock</a>
+            <a href="/#">Rock</a>
           </li>
           <li>
-            <a href="foo">Soft Rock</a>
+            <a href="/#">Soft Rock</a>
           </li>
           <li>
-            <a href="foo">Solitary Ride</a>
+            <a href="/#">Solitary Ride</a>
           </li>
         </Nav>
       </div>
